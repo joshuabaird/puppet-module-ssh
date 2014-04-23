@@ -32,6 +32,7 @@ class ssh (
   $sshd_config_print_motd           = 'yes',
   $sshd_config_use_dns              = 'USE_DEFAULTS',
   $sshd_config_banner               = 'none',
+  $sshd_config_listenaddress        = undef,
   $sshd_banner_content              = undef,
   $sshd_banner_owner                = 'root',
   $sshd_banner_group                = 'root',
